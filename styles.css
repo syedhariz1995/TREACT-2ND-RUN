@@ -462,7 +462,87 @@ transition: all 300ms ease;
 }
 
 .steps__text--container p{
-    font-size: 14px;
+    font-size: 16px;
     line-height: 2;
     color: #243e63;
+}
+
+
+
+
+/* VALUES */
+
+
+.values__left{
+    width: 50%;
+    padding: 32px 64px 32px 0;
+}
+
+.values__header,
+.values__title,
+.values__description{
+    text-align: left;
+}
+
+.values__both--block{
+    width: 50%;
+    margin-top: 32px;
+    margin-right: 32px;
+}
+
+.values__right--block{
+    margin-right: 0 !important;
+}
+
+.values__dollar--container{
+    display: flex;
+    padding: 8px;
+    background-color: rgb(154, 230, 180);
+    border-radius: 9999px;
+    color: rgb(39, 103, 73);
+}
+
+.values__case--container{
+    display: flex;
+    padding: 8px;
+    background-color: rgb(254, 178, 178);
+    border-radius: 9999px;
+    color: rgb(155, 44, 44);
+    margin: auto 0;
+}
+
+.values__sub--title{
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    font-size: 20px;
+    margin-left: 12px;
+    color: #243e63;
+}
+
+.values__sub--description{
+    margin-top: 16px;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #243e63;
+}
+
+.values__logo__title{
+    display: flex;
+}
+
+.values__button--container{
+    margin-top: 32px;
+}
+
+.values__button--container button{
+    transition: all 300ms ease;
+}
+
+.values__button--container button:hover{
+    background-color: #5011cc;
+}
+
+.values__right{
+    width: 50%;
 }
