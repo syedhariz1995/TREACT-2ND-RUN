@@ -45,7 +45,7 @@ button{
     background-color: #6415ff;
     border-width: 0;
     border-radius: 50px;
-    padding: 12px 32px;
+    padding: 14px 32px;
     color: rgb(247, 250, 252);
     font-weight: bold;
     font-size: 14px;
@@ -98,6 +98,15 @@ button{
     color: #243e63;
     font-weight: 900;
     letter-spacing: 0.5px;
+}
+
+.section__description {
+    margin-top: 18px;
+    width: 100%;
+    max-width: 576px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.625;
 }
 
 .description {
@@ -297,16 +306,6 @@ transition: all 300ms ease;
 
 /* FEATURES */
 
-
-.section__description {
-    margin-top: 18px;
-    width: 100%;
-    max-width: 576px;
-    text-align: center;
-    font-size: 18px;
-    line-height: 1.625;
-}
-
 .feature__wrapper{
     display: flex;
     flex-wrap: wrap;
@@ -356,4 +355,44 @@ transition: all 300ms ease;
 .feature__text--container p{
     font-size: 16px;
     line-height: 2;
+    color: #7c8ba1
+}
+
+
+
+/* QUALITY */
+
+
+.quality__left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 64px;
+    padding: 32px 0;
+    width: 50%;
+}
+
+.quality__header,
+.quality__title,
+.quality__description{
+    text-align: left;
+}
+
+.quality__left a{
+    margin-top: 24px;
+}
+
+.quality__left button{
+    transition: all 300ms ease;
+}
+
+.quality__left button:hover{
+    background-color: #5011cc;
+    color: #fff;
+}
+
+
+
+.quality__right{
+    width: 50%;
 }
