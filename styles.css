@@ -121,7 +121,9 @@ button{
 
 
 
+
 /* NAVIGATION */
+
 
 
 
@@ -197,7 +199,9 @@ button{
 
 
 
+
 /* ABOUT */
+
 
 
 
@@ -304,7 +308,13 @@ transition: all 300ms ease;
 
 
 
+
+
 /* FEATURES */
+
+
+
+
 
 .feature__wrapper{
     display: flex;
@@ -360,7 +370,12 @@ transition: all 300ms ease;
 
 
 
+
+
 /* QUALITY */
+
+
+
 
 
 .quality__left{
@@ -395,9 +410,18 @@ transition: all 300ms ease;
     width: 50%;
 }
 
+.quality__right img{
+    border: 1px solid #e9edf3;
+    border-radius: 1px;
+}
+
+
+
 
 
 /* STEPS */
+
+
 
 
 
@@ -473,6 +497,9 @@ transition: all 300ms ease;
 /* VALUES */
 
 
+
+
+
 .values__left{
     width: 50%;
     padding: 32px 64px 32px 0;
@@ -545,4 +572,178 @@ transition: all 300ms ease;
 
 .values__right{
     width: 50%;
+}
+
+
+
+
+
+/* PRICING */
+
+
+
+
+
+.pricing__options--container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.pricing__options{
+    width: 100%;
+    max-width: 380px;
+    border-radius: 8px;
+    box-shadow: 0px 1px 3px rgba(128, 128, 128, 0.4);
+    padding: 8px 32px 0px 32px;
+    margin-top: 64px;
+    margin-right: 32px;
+    position: relative;
+}
+
+.plan__highlight{
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    position: absolute;
+    height: 8px;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+.green__highlight{
+    background: linear-gradient(115deg, rgb(56, 178, 172)0%,
+    rgb(129,230,217) 100%);
+}
+
+
+.plan__header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 32px 0;
+}
+
+.plan__name{
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.plan__price{
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    margin: 4px 0;
+    padding: 8px 0;
+}
+
+.plan__duration{
+    font-size: 16px;
+    font-weight: 700;
+    color: #a0aec0;
+    letter-spacing: 1.6px;
+    text-align: center;
+}
+
+.plan__features{
+    display: flex;
+    flex-direction: column;
+    border-top: 2px #e5e7eb solid;
+    border-bottom: 2px #e5e7eb solid;
+    padding: 32px;
+    margin: 0 -32px;
+}
+
+.plan__feature--title{
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0.4px;
+}
+
+.plan__feature{
+    margin-top: 20px;
+    color: #718096;
+    font-weight: 500;
+    padding: 2px;
+}
+
+.pricing__button--container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 32px 64px;
+}
+
+.pricing__button--green{
+    padding: 18px 32px;
+    width: 100%;
+    background: linear-gradient(115deg,
+    rgb(56, 178, 172) 0%,
+    rgb(129, 230, 217) 100%);
+    border: none;
+    transition: transform 300ms ease, box-shadow 300ms ease;
+}
+
+.pricing__button:hover{
+    transform: translate(2px, -2px);
+    box-shadow: 0px 5px 10px rgba(70, 70, 70, 0.4);
+}
+
+.blue__panel{
+    background-image: linear-gradient(135deg,
+    rgb(76, 81, 191) 0%,
+    rgb(102, 126, 234) 100%);
+}
+
+.plan__white--text{
+    color: #fff !important;
+}
+
+.feature__blue--border{
+    border-color: rgb(102, 126, 234);
+}
+
+.plan__features--blue{
+    display: flex;
+    flex-direction: column;
+    border-top: 2px #667eea solid;
+    border-bottom: 2px #667eea solid;
+    padding: 32px;
+    margin: 0 -32px;
+}
+
+.pricing__button--white{
+    padding: 18px 32px;
+    width: 100%;
+    background-color: #fff;
+    color: #6415ff;
+    transition: transform 300ms ease, box-shadow 300ms ease, background-color 300ms ease;
+}
+
+.pricing__button--white:hover{
+    transform: translate(2px, -2px);
+    box-shadow: 0px 5px 10px rgba(70, 70, 70, 0.4);
+    background-color: #e2e8f0;
+}
+
+
+.red__highlight{
+    background: linear-gradient(115deg,
+    rgb(245, 101, 101) 0%,
+    rgb(254, 178, 178) 100%);
+}
+
+.pricing__button--red{
+    padding: 18px 32px;
+    width: 100%;
+    background: linear-gradient(115deg,
+            rgb(245, 101, 101) 0%,
+            rgb(254, 178, 178) 100%);
+    border: none;
+    transition: transform 300ms ease, box-shadow 300ms ease;
 }
