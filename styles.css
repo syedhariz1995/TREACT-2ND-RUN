@@ -807,7 +807,7 @@ transition: all 300ms ease;
     margin-top: 32px;
 }
 
-.user__container{
+.user__details--container{
     display: flex;
 }
 
