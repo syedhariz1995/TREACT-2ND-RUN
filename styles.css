@@ -209,7 +209,72 @@ button{
     text-decoration: none;
 }
 
+.navbar__hamburger--menu{
+    background-color: transparent;
+    color: #6415ff;
+    padding: 0;
+    display: none;
+}
 
+.navbar__menu--backdrop{
+    visibility: hidden;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: 24px 16px;
+    display: flex;
+    max-height: 400px;
+    z-index: 3;
+    background-color: #fff;
+    border-radius: 8px;
+    border: 1px solid #e5e7eb;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px;
+    transition: all 300ms ease;
+    opacity: 0;
+}
+
+.navbar__menu__crosss--button{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0;
+    border: 0;
+    background-color: transparent;
+    color: #6415ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translate(-15px, 25px);
+}
+
+.navbar__hamburger--link{
+    margin: 26px 0;
+    text-align: center;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.menu--open .navbar__hamburger--link{
+    visibility: visible;
+    opacity: 1;
+}
+
+.menu--open .navbar__menu--backdrop{
+    visibility: visible;
+    opacity: 1;
+}
+
+.nav__link--text{
+    font-size: 18px !important;
+    margin: 0 !important;
+    font-weight: 600 !important;
+    color: black;
+    text-align: center;
+}
 
 
 
