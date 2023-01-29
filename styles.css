@@ -1373,7 +1373,7 @@ transition: all 300ms ease;
     }
 
     .values__title{
-        font-size: 36px;
+        font-size: 32px;
         line-height: 1.2;
     }
 
@@ -1424,6 +1424,14 @@ transition: all 300ms ease;
         width: 66%;
     }
 
+    .testimony__header{
+        font-size: 16px;
+    }
+
+    .testimony__title{
+        font-size: 36px;
+    }
+
     .enroll__container{
         display: flex;
         flex-direction: column;
@@ -1455,7 +1463,7 @@ transition: all 300ms ease;
     }
 
     .section__title{
-        font-size: 36px;
+        font-size: 32px;
         text-align: center;
     }
 
