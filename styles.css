@@ -1635,11 +1635,11 @@ transition: all 300ms ease;
     }
 
     .pricing__header{
-        font-size: 28px;
+        font-size: 14px;
     }
 
     .pricing__options{
-        margin: 40px auto;
+        margin: 40px 0;
     }
 
     .plan__price{
