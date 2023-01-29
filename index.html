@@ -6,9 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TReact 2nd Run</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="index.js" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/eede701a2c.js" crossorigin="anonymous"></script>
 </head>
 <body>
+
     <section id="navigation">
         <nav>
             <div class="nav__row">
@@ -23,6 +25,36 @@
                     <li><a href="" class="nav__link nav__link--login">Login</a></li>
                     <li><a href="" class="nav__link nav__link--primary">Sign Up</a></li>
                 </ul>
+                 <!-- HAMBURGER START -->
+            <button class="navbar__hamburger__menu--button" onclick="openMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <div class="navbar__menu__backdrop">
+                <button class="navbar__cross__menu--button" onclick="closeMenu()">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+                <ul class="hamburger__link--list">
+                    <li class="hamburger__list">
+                        <a class="nav__link navbar__link__text" href="">About</a>
+                    </li>
+                    <li class="hamburger__list">
+                        <a class="nav__link navbar__link__text" href="">Blog</a>
+                    </li>
+                    <li class="hamburger__list">
+                        <a class="nav__link navbar__link__text" href="">Pricing</a>
+                    </li>
+                    <li class="hamburger__list">
+                        <a class="nav__link navbar__link__text" href="">Contact Us</a>
+                    </li>
+                    <li class="hamburger__list">
+                        <a class="nav__link navbar__link__text" href="">Login</a>
+                    </li>
+                    <li class="hamburger__list">
+                        <a class="nav__link navbar__link__text nav__link--primary--hamburger" href="">Sign Up</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- HAMBURGER ENDS -->
             </div>
         </nav>
     </section>
@@ -118,7 +150,7 @@
 
     <section id="quality">
         <div class="container">
-            <div class="row row__column">
+            <div class="quality__row row row__column">
                 <div class="quality__left">
                     <h5 class="quality__header section__header">QUALITY WORK</h5>
                     <h1 class="quality__title section__title">Designed & Developed by <span class="purple">Professionals.</span></h1>
@@ -134,7 +166,7 @@
 
     <section id="steps">
         <div class="container">
-            <div class="row row__column">
+            <div class="steps__row row row__column">
                 <div class="steps__left">
                     <img src="./assets/hero-screenshot-2.241aac1f.png" alt="">
                 </div>
@@ -177,7 +209,7 @@
 
     <section id="values">
         <div class="container">
-            <div class="row row__column">
+            <div class="values__row row row__column">
 
                 <div class="values__left">
                     <h5 class="values__header section__header">VALUES</h5>
@@ -298,7 +330,7 @@
 
     <section id="testimony">
         <div class="container">
-            <div class="row row__column">
+            <div class="testimony__row row row__column">
                 <div class="testimony__left">
                     <img src="./assets/love-illustration.c759090fa833369ad6ffb6eb19cacb3e.svg" alt="">
                 </div>
