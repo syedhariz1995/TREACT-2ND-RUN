@@ -9,6 +9,10 @@
 
 /* GENERAL */
 
+html{
+    scroll-behavior: smooth;
+}
+
 #navigation,
 #about,
 #features,
@@ -1814,4 +1818,38 @@ transition: all 300ms ease;
         margin: 32px 0;
         font-size: 14px;
     }
+}
+
+
+
+@media (max-width: 440px){
+    .about__input input{
+        padding: 18px 192px 18px 32px;
+    }
+
+    .about__input button{
+        padding: 18px;
+    }
+
+    .pricing__options{
+        max-width: 310px;
+    }
+
+    .press__column{
+        margin-right: 10px;
+    }
+
+    .team__column,
+    .legal__column{
+        margin-top: 50px;
+    }
+
+    .team__column{
+        margin-left: 50px;
+    }
+
+    .legal__column{
+        margin-right: 40px;
+    }
+
 }
